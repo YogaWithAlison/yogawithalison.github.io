@@ -68,5 +68,10 @@ defaults:
       
 collections:
   testimonials:
-      output: true
-
+    output: true
+  timetable:
+    output: true
+  gallery:
+    output: true
+    
+      
