@@ -1,8 +1,7 @@
 # Site settings
 title: Yoga With Alison
-email: your-email@domain.com
+email: yogawithalison1@gmail.com
 skills: "Mind • Body • Soul"
-meta_author: LastName FirstName
 
 # Google webmaster tools
 google_verify:
@@ -29,7 +28,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Alison
   location: Location
   social: Around the Web
   credits: Credits
