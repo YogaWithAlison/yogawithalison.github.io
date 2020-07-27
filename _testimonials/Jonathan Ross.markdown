@@ -3,9 +3,5 @@ layout: default
 modal-id: 1
 date: 2014-07-15
 img: jonathan.jpeg
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: I have been coming to Alison's Yoga, with my wife for about a year, having led a life of running and cycling I was not flexible, Alisonne has been a great teacher and I am proud to be more flexible and stretchy than I was in my twenties added to the mindfulness and meditation that have improved all aspects of my life. Even during lockdown Alison has established social distancing, outside classes that still provide the Yoga I need to keep me healthy. Yoga with Alison will be a life long habit worth sharing! Namaste.
 ---

@@ -3,9 +3,5 @@ layout: default
 modal-id: 3
 date: 2014-07-15
 img: bonnie.jpeg
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+description: I have been attending Alisons yoga classes since she started in Kingskerswell Village. I am feeling fantastic, more flexible,more energised,more de stressed, and am progressing weekly. Alison is a great teacher; encouraging, patient, motivational, kind,funny, passionate,lovely teacher. Can’t recommend Alison highly enough 🧘‍♂️🧘‍♂️
 ---
