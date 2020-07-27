@@ -62,6 +62,6 @@ permalink: pretty
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "testimonials"
     values:
       permalink: ""
