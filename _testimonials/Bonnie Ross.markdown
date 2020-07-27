@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2014-07-15
-img: di.jpeg
+img: bonnie.jpeg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
