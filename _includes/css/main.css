@@ -4,22 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.fade {
-  position: relative;
-  overflow: hidden;
-  height: 3.6em;
-}
-.fade:after {
-  content: "";
-  text-align: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 70%;
-  height: 1.2em;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%);
-}
-
 
 body {
     overflow-x: hidden;
@@ -51,6 +35,19 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.testimonial-container {
+  width: 100%;
+}
+.testimonial-image {
+  display: inline-block;
+  border-radius: 5%;
+  width: 20%;
+}
+.testimonial-description {
+  display: inline-block;
+  width: 70%;
 }
 
 hr.star-light,
