@@ -46,16 +46,16 @@ h6 {
   border-radius: 5%;
   width: 20%;
   margin: 0;
-  position: absolute;               /* 2 */
-  top: 50%;                         /* 3 */
+  position: absolute;               
+  top: 50%;                         
   transform: translate(0, -50%)
 }
 .testimonial-description {
   display: inline-block;
   width: 70%;
   margin: 0;
-  position: absolute;               /* 2 */
-  top: 50%;                         /* 3 */
+  position: absolute;               
+  top: 50%;                         
   transform: translate(0, -50%)
 }
 
