@@ -43,12 +43,12 @@ h6 {
 .testimonial-image {
   display: inline-block;
   border-radius: 5%;
-  width: 29%;
+  width: 25%;
 }
 .testimonial-description {
   margin: auto;
   display: inline-block;
-  width: 79%;
+  width: 75%;
 }
 
 hr.star-light,
