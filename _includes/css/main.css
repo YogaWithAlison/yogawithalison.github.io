@@ -46,7 +46,7 @@ h6 {
   width: 20%;
 }
 .testimonial-description {
-  margin: auto;
+  margin: 0 auto;
   display: inline-block;
   width: 70%;
 }
