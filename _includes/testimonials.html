@@ -10,14 +10,14 @@
             </div>
             <div class="portfolio-flex-row">
                 {% for post in site.testimonials %}
-                    <div class="testimonial-container">
+                    <div><div class="testimonial-container">
                         <div class="testimonial-image">
                             <img src="img/testimonials/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </div>
                         <div class="testimonial-description">
                             <p>{{ post.description }}</p>
                         </div>
-                    </div>
+                    </div></div>
                 {% endfor %}
             </div>
         </div>
