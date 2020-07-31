@@ -7,7 +7,6 @@
 .fade {
   position: relative;
   height: 3.6em;
-  overflow: hidden
 }
 .fade:after {
   content: "";
