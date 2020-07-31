@@ -39,24 +39,20 @@ h6 {
 
 .testimonial-container {
   width: 100%;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
 }
 .testimonial-image {
   display: inline-block;
   border-radius: 5%;
   width: 20%;
-  margin: 0;
-  position: absolute;               
-  top: 50%;                         
-  transform: translate(0, -50%)
 }
 .testimonial-description {
   display: inline-block;
   width: 70%;
-  margin: 0;
-  position: absolute;               
-  top: 50%;                         
-  transform: translate(0, -50%)
 }
 
 hr.star-light,
