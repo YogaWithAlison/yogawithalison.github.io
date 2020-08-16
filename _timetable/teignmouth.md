@@ -8,7 +8,6 @@ project-date: April 2014
 client: Start Bootstrap
 category: Web Development
 description: 
----
 <TABLE>
     <TR>
         <TH>Day</TH>
@@ -25,3 +24,4 @@ description:
         <TD>Outdoor Yoga</TD>
     </TR>
 </TABLE>
+---
