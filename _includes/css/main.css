@@ -48,6 +48,36 @@ h6 {
   text-align: left
 }
 
+.testimonials {
+  width:100%
+}
+
+.testimonials tr {
+  width:100%
+}
+
+.testimonials tr th {
+  width:100%
+}
+
+.testimonials tr * {
+
+}
+
+.testimonials tr td div {
+  width:200px; 
+  height:200px; 
+  position:relative; 
+  overflow:hidden; 
+  border-radius:50%
+}
+.testimonials tr td div img{
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
