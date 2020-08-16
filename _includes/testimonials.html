@@ -10,10 +10,10 @@
             </div>
             <TABLE style="width:100vw">
                 {% for post in site.testimonials %}
-                    <TR>
+                    <TR style="width:100vw">
                         <TH colspan="2" align="center" style="width:100vw"><H1>{{ post.title }}</H1></TH>
                     </TR>
-                    <TR>
+                    <TR style="width:100vw">
                         <TD valign="top"> <div style="width:200px; height:200px; position:relative; overflow:hidden; border-radius:50%"> <img src="img/testimonials/{{ post.img }}" style="display: inline;margin: 0 auto;height: auto;width: 100%;"></div></TD>
                         <TD align="center" style="width:90vw"><p>{{ post.description }}</p></TD> 
                     </TR>               
