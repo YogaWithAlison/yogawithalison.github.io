@@ -9,13 +9,13 @@
                 </div>
             </div>
             <div class="portfolio-flex-row">
-            <TABLE>
+            <TABLE style="width:100%">
                 {% for post in site.testimonials %}
                     <TR>
-                        <TH rowspan="2"><img src="img/testimonials/{{ post.img }}"></TH>
-                        <TH>Bonnie</TH>
+                        <TH rowspan="2"  style="width:20%"><img src="img/testimonials/{{ post.img }}"></TH>
+                        <TH  style="width:80%">Bonnie</TH>
                     </TR>
-                        <TD><p>{{ post.description }}</p></TD>                
+                        <TD  style="width:80%"><p>{{ post.description }}</p></TD>                
                 {% endfor %}
             </TABLE>
             </div>
