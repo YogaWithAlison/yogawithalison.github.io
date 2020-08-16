@@ -37,6 +37,16 @@ h6 {
     font-weight: 700;
 }
 
+tr {
+  width:100%;
+}
+
+tr * {
+  padding: 0;
+  margin: 0;
+  width: 19%;
+  text-align: left
+}
 
 .testimonial-container {
   width: 100%;
