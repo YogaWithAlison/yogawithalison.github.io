@@ -9,17 +9,15 @@
                 </div>
             </div>
             <div class="portfolio-flex-row">
+            <TABLE>
                 {% for post in site.testimonials %}
-                    <div class="testimonial-container">
-                        <div class="testimonial-image">
-                            <img src="img/testimonials/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}" width="100%">
-                        </div>
-                        <div class="testimonial-description">
-                            <p>{{ post.description }}</p>
-                        </div>
-                    </div>
-                    <br />
+                    <TR>
+                        <TH rowspan="2"><img src="img/testimonials/{{ post.img }}"></TH>
+                        <TH>Bonnie</TH>
+                    </TR>
+                        <TD><p>{{ post.description }}</p></TD>                
                 {% endfor %}
+            </TABLE>
             </div>
         </div>
     </section>

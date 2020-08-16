@@ -48,21 +48,6 @@ tr * {
   text-align: left
 }
 
-.testimonial-container {
-  width: 100%;
-}
-.testimonial-image {
-  display: inline-block;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  overflow: none
-}
-.testimonial-description {
-  display: inline-block;
-  width: 70%;
-}
-
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
