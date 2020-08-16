@@ -12,11 +12,11 @@
             <TABLE style="width:80vw">
                 {% for post in site.testimonials %}
                     <TR>
-                        <TH rowspan="2"  style="width:15vw"><img src="img/testimonials/{{ post.img }}"></TH>
-                        <TH  style="width:63vw">{{ post.title }}</TH>
+                        <TH colspan="2"><H1>{{ post.title }}</H1></TH>
                     </TR>
                     <TR>
-                        <TD  style="width:63vw"><p>{{ post.description }}</p></TD> 
+                        <TD><img src="img/testimonials/{{ post.img }}"></TD>
+                        <TD><p>{{ post.description }}</p></TD> 
                     </TR>               
                 {% endfor %}
             </TABLE>
