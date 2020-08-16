@@ -46,6 +46,15 @@ h6 {
 .torquay {
   display: none
 }
+#kingskerswell:hover .kingskerswell {
+  display: block
+}
+#teignmouth:hover .teignmouth {
+  display: block
+}
+#torquay:hover .torquay {
+  display: block
+}
 .kingskerswell:hover {
   display: block
 }
