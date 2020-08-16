@@ -9,18 +9,60 @@
                 </div>
             </div>
             <div class="portfolio-flex-row">
-                {% for post in site.timetable %}
-                    <div class="portfolio-flex-item portfolio-item">
-                        <a href="#timetableModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x" style="color:white"></i>
-                                </div>
-                            </div>
-                            <img src="img/timetable/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                        </a>
-                    </div>
-                {% endfor %}
+             <TABLE>        
+                    <TR>
+                        <TH>Day</TH>
+                        <TH>Time</TH>
+                        <TH>Price</TH>
+                        <TH>Location</TH>
+                        <TH>Notes</TH>
+                    </TR>
+                    <TR><TH><H1>Kingskerswell</H1></TH></TR>
+                    <TR class="kingskerswell">
+                        <TD>Wednesday</TD>
+                        <TD>9.30 AM</TD>
+                        <TD>Donation</TD>
+                        <TD>Playfield</TD>
+                        <TD>Outdoor Yoga</TD>
+                    </TR>
+                    <TR class="kingskerswell">
+                        <TD>Wednesday</TD>
+                        <TD>6.00 PM</TD>
+                        <TD>Donation</TD>
+                        <TD>Playfield</TD>
+                        <TD>Outdoor Yoga</TD>
+                    </TR>
+                    <TR class="kingskerswell">
+                        <TD>Sunday</TD>
+                        <TD>9.00 AM</TD>
+                        <TD>Donation</TD>
+                        <TD>Playfield</TD>
+                        <TD>Outdoor Yoga</TD>
+                    </TR>
+                    <TR class="kingskerswell">
+                        <TD>Sunday</TD>
+                        <TD>10.15 AM</TD>
+                        <TD>Donation</TD>
+                        <TD>Playfield</TD>
+                        <TD>Outdoor Yoga</TD>
+                    </TR>  
+                    <TR><TH><H1>Teignmouth</H1></TH></TR>
+                    <TR class="teignmouth">
+                        <TD>Saturday</TD>
+                        <TD>10.00 AM</TD>
+                        <TD>Donation</TD>
+                        <TD>Eastcliff Park</TD>
+                        <TD>Outdoor Yoga</TD>
+                    </TR>
+                    <TR><TH><H1>Torquay</H1></TH></TR>
+                    <TR class="torquay">
+                        <TD>Thursday</TD>
+                        <TD>6.00 PM</TD>
+                        <TD>£7.50</TD>
+                        <TD>Pyramids Studio</TD>
+                        <TD>Limited Spaces Available - Max 6 Persons per class</TD>
+                    </TR>
+                </TABLE>
             </div>
         </div>
     </section>
