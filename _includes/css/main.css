@@ -37,11 +37,11 @@ h6 {
     font-weight: 700;
 }
 
-tr {
+.timetable tr {
   width:100%;
 }
 
-tr * {
+.timetable tr * {
   padding: 0;
   margin: 0;
   width: 19%;
