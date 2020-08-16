@@ -21,13 +21,27 @@ div.desc {
 }
 </style>
 
-{% for image in site.img.gallery %}
+<section class="success" id="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Me</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
 
-<div class="gallery">
-  <a target="_blank" href="img/gallery/{{ image.title }}.jpeg">
-    <img src="img/gallery/{{ image.title }}.jpeg">
-  </a>
-  <div class="desc">{{ image.title }}</div>
-</div>
+              {% for image in site.gallery %}
 
-{% endfor %}
+              <div class="gallery">
+                <a target="_blank" href="_gallery/{{ image.title }}.jpeg">
+                  <img src="_gallery/{{ image.title }}.jpeg">
+                </a>
+                <div class="desc">{{ image.title }}</div>
+              </div>
+
+              {% endfor %}
+              
+            </div>
+        </div>
+</section>
