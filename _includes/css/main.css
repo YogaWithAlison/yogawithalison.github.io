@@ -37,33 +37,6 @@ h6 {
     font-weight: 700;
 }
 
-.kingskerswell {
-  display: none
-}
-.teignmouth {
-  display: none
-}
-.torquay {
-  display: none
-}
-#kingskerswell:hover .kingskerswell {
-  display: block
-}
-#teignmouth:hover .teignmouth {
-  display: block
-}
-#torquay:hover .torquay {
-  display: block
-}
-.kingskerswell:hover {
-  display: block
-}
-.teignmouth:hover {
-  display: block
-}
-.torquay:hover {
-  display: block
-}
 
 .testimonial-container {
   width: 100%;
