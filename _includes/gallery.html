@@ -21,11 +21,11 @@ div.desc {
 }
 </style>
 
-<section class="success" id="aboutme">
+<section class="success" id="gallery">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About Me</h2>
+                    <h2>Gallery</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -34,8 +34,8 @@ div.desc {
               {% for image in site.gallery %}
 
               <div class="gallery">
-                <a target="_blank" href="_gallery/{{ image.title }}.jpeg">
-                  <img src="_gallery/{{ image.title }}.jpeg">
+                <a target="_blank" href="gallery/{{ image.title }}.jpeg">
+                  <img src="gallery/{{ image.title }}.jpeg">
                 </a>
                 <div class="desc">{{ image.title }}</div>
               </div>
