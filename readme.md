@@ -4,13 +4,10 @@
   <summary>Edit Timetable</summary>
 
   1. Open _includes/timetable.html
-  2. Find the Location Required  
-    1. Kingskerswell - Line 14  
-    2. Teignmouth - Line 51  
-    3. Torquay - Line 67
-  3. Each event has 5 sections (Day, Time, Price, Location and Notes)  
+  2. Find the row you want to change  
+  3. Each row has 5 sections (Day, Time, Where, Price and Details)  
     1. Change these accordingly  
-    2. You can remove whole sections and you can copy existing section and paste to create a new line in the table.
+    2. You can remove whole sections and you can copy an existing section and paste to create a new row in the table.
 </details>
 
 <details>
