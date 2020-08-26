@@ -37,9 +37,7 @@ h6 {
     font-weight: 700;
 }
 
-.timetable {
-  width: 90vw;
-}
+
 .timetable table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
