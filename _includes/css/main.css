@@ -90,6 +90,7 @@ h6 {
   width: 100%
 }
 
+hr.star-footer,
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -101,7 +102,6 @@ hr.star-primary {
     overflow: visible;
 }
 
-hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
@@ -112,8 +112,14 @@ hr.star-primary:after {
     font-size: 2em;
 }
 
+hr.star-footer,
 hr.star-light {
     border-color: #fff;
+}
+
+hr.star-footer:after {
+  color: #fff;
+  background-color: #{{ site.color.secondary }};
 }
 
 hr.star-light:after {
