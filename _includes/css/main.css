@@ -256,7 +256,7 @@ section h2 {
 
 @media(max-width: 768px) {
   section h2 {
-    font-size: 2vw !important;
+    font-size: 10vw !important;
   }
 }
 
