@@ -251,16 +251,8 @@ section h2 {
 }
 
 @media(max-width: 768px) {
-<<<<<<< HEAD
   h2 {
-    font-size: 4vw;
-=======
-  header h1 {
-    font-size: 2.5vw;
-  }
-  section h2 {
-    font-size: 2.5vw;
->>>>>>> efaac9133f24aad2ffa47ffa8256d930132a3fba
+    font-size: 2vw;
   }
   header h1 {
     font-size: 2.5vw;
