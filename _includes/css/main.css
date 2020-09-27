@@ -39,7 +39,10 @@ h6 {
 
 @media(max-width: 768px) {
   h1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
+  }
+  h2 {
+    font-size: 4vw;
   }
 }
 
