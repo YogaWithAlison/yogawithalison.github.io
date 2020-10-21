@@ -499,6 +499,15 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+#ssor {
+  color: inherit;
+  text-decoration: none;
+  text-decoration-color: crimson;
+}
+#ssor:hover {
+  text-decoration: underline;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
