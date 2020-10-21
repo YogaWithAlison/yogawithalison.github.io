@@ -511,6 +511,14 @@ footer .footer-below {
 #ssor:hover {
   text-decoration: underline;
 }
+#ssoremail {
+  color: inherit;
+  text-decoration: none;
+  text-decoration-color: crimson;
+}
+#ssoremail:hover {
+  text-decoration: underline;
+}
 
 .btn-social {
     display: inline-block;
