@@ -480,6 +480,10 @@ footer {
     color: #fff;
 }
 
+footer a {
+  color: inherit;
+}
+
 footer h3 {
     margin-bottom: 30px;
 }
